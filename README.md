@@ -1,3 +1,8 @@
+# HTML, CSS, and CONFIG Edit to add Reward Item Image to the menu:
+
+![image](https://r2.fivemanage.com/E8IIxhF98B9ORGy7yQoq6/RedM_b1491_GTAProcess_bO1JW1Pnzg.png)
+
+
 # VORP Crafting
 
 > A RedM crafting system for [Vorp Core](http://docs.vorpcore.com:3000/)
