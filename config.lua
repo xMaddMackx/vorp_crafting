@@ -150,10 +150,14 @@ Config.Categories = {
 --     Category = "food",
 --     Animation = 'knifecooking' -- set what animation should play when crafting (if this is not set it has a default animation). Animations can be found below in Config.Animations
 -- }
+
+ImageLink = "nui://vorp_inventory/html/img/items"
+
 Config.Crafting = {
     {
         Text = "Meat Bfast ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/consumable_breakfast.png",
         Desc = "Recipe: 1x Meat, 1x Salt",
         Items = {
             {
@@ -185,6 +189,7 @@ Config.Crafting = {
     {
         Text = "Seasoned Small Game ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/cookedsmallgame.png",
         Desc = "Recipe: 1 x SGM, 1 x Salt",
         Items = {
             {
@@ -213,6 +218,7 @@ Config.Crafting = {
     {
         Text = "Apple Pie ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/consumable_applepie.png",
         Desc = "Recipe: 1x Apple, 1x Water, 1x Sugar, 1x Egg, 1x Flour",
         Items = {
             {
@@ -253,6 +259,7 @@ Config.Crafting = {
     {
         Text = "Steak ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/steak.png",
         Desc = "Recipe: 1x Meat",
         Items = {
             {
@@ -277,6 +284,7 @@ Config.Crafting = {
     {
         Text = "Breakfast ",
         SubText = "InvMax = 5",
+        Image = ImageLink .. "/consumable_breakfast.png",
         Desc = "Recipe: 1x Pork, 2x Eggs",
         Items = {
             {
@@ -304,6 +312,7 @@ Config.Crafting = {
     {
         Text = "Blueberry Pie ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/consumable_blueberrypie.png",
         Desc = "Recipe: 6x BlueBerry, 1 x Water, 1x Sugar, 1x Egg, 1x Flour",
         Items = {
             {
@@ -343,6 +352,7 @@ Config.Crafting = {
     {
         Text = "Seasoned Porkchop",
         SubText = "InvMax = 10 ",
+        Image = ImageLink .. "/cookedpork.png",
         Desc = "Recipe: 1x Pork, 1x Salt",
         Items = {
             {
@@ -356,7 +366,7 @@ Config.Crafting = {
         },
         Reward = {
             {
-                name = "knifecooking",
+                name = "cookedpork",
                 count = 1
             }
         },
@@ -371,6 +381,7 @@ Config.Crafting = {
     {
         Text = "Seasoned Big Game",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/SaltedCookedBigGameMeat.png",
         Desc = "Recipe 1x Big Game Meat, 1x Salt",
         Items = {
             {
@@ -399,6 +410,7 @@ Config.Crafting = {
     {
         Text = "Plain Big Game Meat",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/CookedBigGameMeat.png",
         Desc = "Recipe: 1x Big Game Meat",
         Items = {
             {
@@ -423,6 +435,7 @@ Config.Crafting = {
     {
         Text = "PorkChop ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/cookedpork.png",
         Desc = "Recipe: 1x Pork",
         Items = {
             {
@@ -447,6 +460,7 @@ Config.Crafting = {
     {
         Text = "PickAxe ",
         SubText = "InvMax = 5",
+        Image = ImageLink .. "/pickaxe.png",
         Desc = "Recipe: 10x Iron, 2x Wood",
         Items = {
             {
@@ -474,6 +488,7 @@ Config.Crafting = {
     {
         Text = "Axe ",
         SubText = "InvMax = 5",
+        Image = ImageLink .. "/Axe.png",
         Desc = "Recipe: 10x Iron, 2x Wood",
         Items = {
             {
@@ -501,6 +516,7 @@ Config.Crafting = {
     {
         Text = "Campfire ",
         SubText = "InvMax = 5",
+        Image = ImageLink .. "/campfire.png",
         Desc = "Recipe: 10x Rock, 5x Wood, 4x Coal",
         Items = {
             {
@@ -532,6 +548,7 @@ Config.Crafting = {
     {
         Text = "Plain Cooked Bird ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/cookedbird.png",
         Desc = "Recipe: 1x Raw Bird Meat",
         Items = {
             {
@@ -555,6 +572,7 @@ Config.Crafting = {
     {
         Text = "Refined Gold Ore ",
         SubText = "InvMax = 15",
+        Image = ImageLink .. "/gold.png",
         Desc = "Recipe: 1x Gold Ore",
         Items = {
             {
@@ -578,6 +596,7 @@ Config.Crafting = {
     {
         Text = "Plain Small Game ",
         SubText = "InvMax = 10 ",
+        Image = ImageLink .. "/plainsmallgame.png",
         Desc = "Recipe: 1x Small Game Meat",
         Items = {
             {
@@ -601,6 +620,7 @@ Config.Crafting = {
     {
         Text = "Rope ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/rope.png",
         Desc = "Recipe: 10x Fibers",
         Items = {
             {
@@ -624,6 +644,7 @@ Config.Crafting = {
     {
         Text = "Cloth ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/cloth.png",
         Desc = "Recipe: 10x Wool",
         Items = {
             {
@@ -647,6 +668,7 @@ Config.Crafting = {
     {
         Text = "Tent ",
         SubText = "InvMax = 5 ",
+        Image = ImageLink .. "/tent.png",
         Desc = "Recipe: 4x Cloth, 3x Rope, 2x Wood",
         Items = {
             {
@@ -678,6 +700,7 @@ Config.Crafting = {
     {
         Text = "Bedroll ",
         SubText = "InvMax = 5",
+        Image = ImageLink .. "/bedroll.png",
         Desc = "Recipe: 4x Pelt, 1x Cloth, 2x Wood",
         Items = {
             {
@@ -709,6 +732,7 @@ Config.Crafting = {
     {
         Text = "Cigar",
         SubText = "InvMax = 20",
+        Image = ImageLink .. "/cigar.png",
         Desc = "Recipe: 1x Indian Tobacco, 1x Fiber",
         Items = {
             {
@@ -736,6 +760,7 @@ Config.Crafting = {
     {
         Text = "Cigarette ",
         SubText = "InvMax = 20",
+        Image = ImageLink .. "/cigarette.png",
         Desc = "Recipe: 1x Indian Tobacco, 1x Fiber",
         Items = {
             {
@@ -763,6 +788,7 @@ Config.Crafting = {
     {
         Text = "Steak n' Eggs ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/steakeggs.png",
         Desc = "Recipe: 2x Meat, 2x Eggs, 2x potatoes",
         Items = {
             {
@@ -794,6 +820,7 @@ Config.Crafting = {
     {
         Text = "Veggie Stew ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/vegstew.png",
         Desc = "Recipe: 2x Carrots, 2x Corn, 2x Potatoes, 1xwater, 2x Salt",
         Items = {
             {
@@ -833,6 +860,7 @@ Config.Crafting = {
     {
         Text = "Porkchops and Applesauce ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/porknapples.png",
         Desc = "Recipe: 1x Pork, 2x Apples",
         Items = {
             {
@@ -860,6 +888,7 @@ Config.Crafting = {
     {
         Text = "Bird Stew ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/birdstew.png",
         Desc = "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
         Items = {
             {
@@ -899,6 +928,7 @@ Config.Crafting = {
     {
         Text = "Bird Stew ",
         SubText = "InvMax = 10",
+        Image = ImageLink .. "/birdstew.png",
         Desc = "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
         Items = {
             {
@@ -939,6 +969,7 @@ Config.Crafting = {
     {
         Text = "Bow ",
         SubText = "InvMax = 1",
+        Image = ImageLink .. "/WEAPON_BOW_IMPROVED.png",
         Desc = "Recipe: 2x Hard wood, 4x Fibers",
         Items = {
             {
@@ -966,6 +997,7 @@ Config.Crafting = {
     {
         Text = "Revolver Navy ",
         SubText = "InvMax = 1",
+        Image = ImageLink .. "/WEAPON_REVOLVER_NAVY.png",
         Desc = "Recipe 1x Revolver barrel, 1x Revolver cylinder, 1x Revolver handle",
         Items = {
             {
@@ -997,6 +1029,7 @@ Config.Crafting = {
     {
         Text = "Knife ",
         SubText = "InvMax = 1",
+        Image = ImageLink .. "/WEAPON_MELEE_KNIFE.png",
         Desc = "Recipe 1x Iron, 1x Soft wood",
         Items = {
             {
